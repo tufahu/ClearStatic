@@ -61,6 +61,8 @@ class Clear extends Command
                 self::INPUT_KEY_CLEAR_STATIC_CONTENT
             ));
         }
+        
+        return \Magento\Framework\Console\Cli::RETURN_SUCCESS;
     }
 
     /**
